@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+    <div class="container">
+        <h1 class="form-title">Registration</h1>
+        <form action="#">
+            <div class="main-user">
+                <div class="form-label">
+                    <label for="FIRST NAME">FIRST NAME:</label>
+                    <input type="text" id="firstName" name="firstName"
+                    placeholder="ENTER FIRST NAME"  required/>
+                </div>
+                <div class="form-label">
+                    <label for="LAST NAME">LAST NAME:</label>
+                    <input type="text" id="LastName" name="LastName"
+                    placeholder="ENTER LAST NAME" required/>
+                </div>
+                <div class="form-label">
+                    <label for="COLLEGE NAME">COLLEGE NAME:</label>
+                    <input type="text" id="CollegeName" name="CollegeName"
+                    placeholder="ENTER YOUR COLLEGE NAME" required/>
+                </div>
+                <div class="form-label">
+                    <label for="COURSE">COURSE:</label>
+                    <input type="text" id="Course" name="Course"
+                    placeholder="ENTER COURSE" required/>
+                </div>
+                <div class="form-label">
+                    <label for="E-MAIL">E-MAIL:</label>
+                    <input type="text" id="E-mail" name="E-mail"
+                    placeholder="ENTER E-MAIL" required/>
+                </div>
+                <div class="form-label">
+                    <label for="PHONE NUMBER">PHONE NUMBER:</label>
+                    <input type="text" id="Phone Number" name="Phone Number"
+                    placeholder="ENTER PHONE NUMBER" required/>
+                </div>
+            </div>
+            <div class="gender-details">
+                 <span class="gender-title">GENDER:</span>
+                <div class="gender-options">
+                    <input type="radio" name="gender" id="male">
+                    <label for="male">MALE</label>
+                    <input type="radio" name="gender" id="female">
+                    <label for="female">FEMALE</label>
+                    <input type="radio" name="gender" id="other">
+                    <label for="other">OTHERS</label>
+                </div>
+            </div>
+            <div class="form-submit-btn">
+                <input type="submit" value="Register">
+            </div>
+        </form>
+    </div>
+</body>
+</html>
